@@ -1,0 +1,263 @@
+[
+  {
+    "name": "Babar Azam",
+    "matches": 92,
+    "runs": 4182,
+    "centuries": 14,
+    "fifties": 21,
+    "catches": 32,
+    "wickets": 6
+  },
+  {
+    "name": "Mohammad Hafeez",
+    "matches": 218,
+    "runs": 6614,
+    "centuries": 11,
+    "fifties": 44,
+    "catches": 78,
+    "wickets": 139
+  },
+  {
+    "name": "Shaheen Afridi",
+    "matches": 36,
+    "runs": 209,
+    "centuries": 0,
+    "fifties": 0,
+    "catches": 11,
+    "wickets": 63
+  },
+  {
+    "name": "Shadab Khan",
+    "matches": 49,
+    "runs": 776,
+    "centuries": 0,
+    "fifties": 4,
+    "catches": 25,
+    "wickets": 57
+  },
+  {
+    "name": "Fakhar Zaman",
+    "matches": 49,
+    "runs": 2200,
+    "centuries": 6,
+    "fifties": 12,
+    "catches": 12,
+    "wickets": 2
+  },
+  {
+    "name": "Sarfaraz Ahmed",
+    "matches": 124,
+    "runs": 2635,
+    "centuries": 0,
+    "fifties": 16,
+    "catches": 161,
+    "wickets": 0
+  },
+  {
+    "name": "Imad Wasim",
+    "matches": 61,
+    "runs": 1019,
+    "centuries": 0,
+    "fifties": 4,
+    "catches": 25,
+    "wickets": 63
+  },
+  {
+    "name": "Shoaib Malik",
+    "matches": 287,
+    "runs": 7534,
+    "centuries": 9,
+    "fifties": 44,
+    "catches": 128,
+    "wickets": 156
+  },
+  {
+    "name": "Hasan Ali",
+    "matches": 41,
+    "runs": 319,
+    "centuries": 0,
+    "fifties": 0,
+    "catches": 9,
+    "wickets": 67
+  },
+  {
+    "name": "Mohammad Amir",
+    "matches": 50,
+    "runs": 351,
+    "centuries": 0,
+    "fifties": 1,
+    "catches": 14,
+    "wickets": 81
+  },
+  {
+    "name": "David Warner",
+    "matches": 150,
+    "runs": 6363,
+    "centuries": 18,
+    "fifties": 37,
+    "catches": 58,
+    "wickets": 8
+  },
+  {
+    "name": "Jasprit Bumrah",
+    "matches": 64,
+    "runs": 89,
+    "centuries": 0,
+    "fifties": 0,
+    "catches": 10,
+    "wickets": 120
+  },
+  {
+    "name": "Eoin Morgan",
+    "matches": 241,
+    "runs": 6970,
+    "centuries": 13,
+    "fifties": 46,
+    "catches": 82,
+    "wickets": 4
+  },
+  {
+    "name": "Tamim Iqbal",
+    "matches": 234,
+    "runs": 7987,
+    "centuries": 13,
+    "fifties": 51,
+    "catches": 46,
+    "wickets": 11
+  },
+  {
+    "name": "Dale Steyn",
+    "matches": 125,
+    "runs": 991,
+    "centuries": 0,
+    "fifties": 3,
+    "catches": 27,
+    "wickets": 196
+  },
+  {
+    "name": "Faf du Plessis",
+    "matches": 145,
+    "runs": 5507,
+    "centuries": 9,
+    "fifties": 34,
+    "catches": 57,
+    "wickets": 14
+  },
+  {
+    "name": "Kieron Pollard",
+    "matches": 330,
+    "runs": 8051,
+    "centuries": 6,
+    "fifties": 41,
+    "catches": 104,
+    "wickets": 45
+  },
+  {
+    "name": "Shikhar Dhawan",
+    "matches": 187,
+    "runs": 6683,
+    "centuries": 17,
+    "fifties": 33,
+    "catches": 56,
+    "wickets": 2
+  },
+  {
+    "name": "Kagiso Rabada",
+    "matches": 75,
+    "runs": 282,
+    "centuries": 0,
+    "fifties": 0,
+    "catches": 13,
+    "wickets": 145
+  },
+  {
+    "name": "Imran Tahir",
+    "matches": 107,
+    "runs": 197,
+    "centuries": 0,
+    "fifties": 0,
+    "catches": 25,
+    "wickets": 173
+  },
+  {
+    "name": "Kumar Sangakkara",
+    "matches": 404,
+    "runs": 14234,
+    "centuries": 25,
+    "fifties": 93,
+    "catches": 151,
+    "wickets": 8
+  },
+  {
+    "name": "Steve Smith",
+    "matches": 150,
+    "runs": 6249,
+    "centuries": 16,
+    "fifties": 33,
+    "catches": 78,
+    "wickets": 27
+  },
+  {
+    "name": "Kane Williamson",
+    "matches": 146,
+    "runs": 6173,
+    "centuries": 18,
+    "fifties": 41,
+    "catches": 64,
+    "wickets": 15
+  },
+  {
+    "name": "Rohit Sharma",
+    "matches": 227,
+    "runs": 9115,
+    "centuries": 29,
+    "fifties": 43,
+    "catches": 91,
+    "wickets": 8
+  },
+  {
+    "name": "Chris Gayle",
+    "matches": 301,
+    "runs": 10480,
+    "centuries": 25,
+    "fifties": 54,
+    "catches": 65,
+    "wickets": 11
+  },
+  {
+    "name": "Shakib Al Hasan",
+    "matches": 206,
+    "runs": 5900,
+    "centuries": 9,
+    "fifties": 47,
+    "catches": 97,
+    "wickets": 260
+  },
+  {
+    "name": "Jos Buttler",
+    "matches": 141,
+    "runs": 3843,
+    "centuries": 9,
+    "fifties": 23,
+    "catches": 159,
+    "wickets": 0
+  },
+  {
+    "name": "Rashid Khan",
+    "matches": 75,
+    "runs": 603,
+    "centuries": 0,
+    "fifties": 1,
+    "catches": 24,
+    "wickets": 140
+  },
+  {
+    "name": "Mitchell Starc",
+    "matches": 98,
+    "runs": 846,
+    "centuries": 0,
+    "fifties": 2,
+    "catches": 24,
+    "wickets": 184
+  }
+]
