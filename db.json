@@ -3,19 +3,21 @@
     "name": "Babar Azam",
     "matches": 92,
     "runs": 4182,
-    "centuries": 14,
+    "centuries": 34,
     "fifties": 21,
     "catches": 32,
-    "wickets": 6
+    "wickets": 6,
+    "image":"https://encrypted-tbn3.gstatic.com/licensed-image?q=tbn:ANd9GcTSXWy7kRmIEcrEpnaaa6C1NTihK9dx5a01j9yadpza7cudpEj355yMln-M3dTHvSa-m7XKlEklA__XMGI"
   },
   {
     "name": "Mohammad Hafeez",
     "matches": 218,
     "runs": 6614,
     "centuries": 11,
-    "fifties": 44,
+    "fifties": 144,
     "catches": 78,
-    "wickets": 139
+    "wickets": 139,
+    "image":"https://encrypted-tbn3.gstatic.com/licensed-image?q=tbn:ANd9GcQiSk54_QPze2QAlFk-e3J5EtFhS9P5Rj9uMZuSF_G_5tF5ELiw2x2cKeeHZv8Npg1n8P2Z2hkP5_lbfBo"
   },
   {
     "name": "Shaheen Afridi",
@@ -24,7 +26,8 @@
     "centuries": 0,
     "fifties": 0,
     "catches": 11,
-    "wickets": 63
+    "wickets": 63,
+    "image":"https://encrypted-tbn2.gstatic.com/licensed-image?q=tbn:ANd9GcR6oKcb6vUDbuC5OHR-GyPoTI7oVLrQhUUrxpvNbascaQ92fg5VP0nq_8pbVjWxXZHbd-9iAEqN-xVv-zE"
   },
   {
     "name": "Shadab Khan",
@@ -33,7 +36,8 @@
     "centuries": 0,
     "fifties": 4,
     "catches": 25,
-    "wickets": 57
+    "wickets": 57,
+    "image":"https://encrypted-tbn3.gstatic.com/licensed-image?q=tbn:ANd9GcSoChR0iuRlNCNVtmWPhd5Tkg_sk5UXxlQsAi2L0MByD68ymnCxBYUispXcpEHhlPX3FxqmGNZkl-S03I4"
   },
   {
     "name": "Fakhar Zaman",
@@ -42,7 +46,8 @@
     "centuries": 6,
     "fifties": 12,
     "catches": 12,
-    "wickets": 2
+    "wickets": 2,
+    "image":"https://encrypted-tbn3.gstatic.com/licensed-image?q=tbn:ANd9GcTKk7GQw_dTf1Hef2_eePONsKLdP9TevuXdOis7b_eBX31GCWi3JQroazq3at0i3X06WIHljcpxe8yTyxM"
   },
   {
     "name": "Sarfaraz Ahmed",
@@ -51,7 +56,8 @@
     "centuries": 0,
     "fifties": 16,
     "catches": 161,
-    "wickets": 0
+    "wickets": 0,
+    "image":"https://encrypted-tbn0.gstatic.com/licensed-image?q=tbn:ANd9GcTwG6vsiG_3nOutdRIbOxrqTRf3cfFSsvVB24GOfM8m-tWbBVbxuUWVY2n-VWF8p_zN3LAPfc5gg1zSwoQ"
   },
   {
     "name": "Imad Wasim",
@@ -60,7 +66,8 @@
     "centuries": 0,
     "fifties": 4,
     "catches": 25,
-    "wickets": 63
+    "wickets": 63,
+    "image":"https://encrypted-tbn2.gstatic.com/licensed-image?q=tbn:ANd9GcSshGOQK6-WpkT8RZNTxdjfTcARXAX15LVogQINZuyGolC0-sEEbgKpss8r0lcqXJ8_hcdmUM29kuBjQvA"
   },
   {
     "name": "Shoaib Malik",
@@ -69,7 +76,8 @@
     "centuries": 9,
     "fifties": 44,
     "catches": 128,
-    "wickets": 156
+    "wickets": 156,
+    "image":"https://encrypted-tbn2.gstatic.com/licensed-image?q=tbn:ANd9GcSr0RKHfMdDJFGfqjyorAIHTKuoQ2N3iY0Hyaj5ny2Vu88BKlJdwkAoWa3W0au69sMBeKbMu3-cn7fcjhg"
   },
   {
     "name": "Hasan Ali",
@@ -78,7 +86,8 @@
     "centuries": 0,
     "fifties": 0,
     "catches": 9,
-    "wickets": 67
+    "wickets": 67,
+    "image":"https://encrypted-tbn1.gstatic.com/licensed-image?q=tbn:ANd9GcTu_YhzzOze4tq2m1gHxRYUTaJ_eZ_i6K4O_0LSg0ZS-HreXQHLALbJ9a2uxGxBKQr_DC1Kyrb7mL6PGg8"
   },
   {
     "name": "Mohammad Amir",
@@ -87,7 +96,8 @@
     "centuries": 0,
     "fifties": 1,
     "catches": 14,
-    "wickets": 81
+    "wickets": 81,
+    "image":"https://encrypted-tbn3.gstatic.com/licensed-image?q=tbn:ANd9GcTkw779llQcDfOSFGtLf9uVE8fK2DN1HB-SjTP2TLOqDwwRXhfD1NSYw5UXcQaEU0xh5EzyPnMAs2Wiov4"
   },
   {
     "name": "David Warner",
@@ -96,7 +106,8 @@
     "centuries": 18,
     "fifties": 37,
     "catches": 58,
-    "wickets": 8
+    "wickets": 8,
+    "image":"https://encrypted-tbn1.gstatic.com/licensed-image?q=tbn:ANd9GcS5srRGhwoYUs-yo2clN7Taqz2EpTWIFT38AJsjm3hvoUoLrTKNOV9W081o9hXsSQl5Gth0FYJ05aKmBZc"
   },
   {
     "name": "Jasprit Bumrah",
@@ -105,7 +116,8 @@
     "centuries": 0,
     "fifties": 0,
     "catches": 10,
-    "wickets": 120
+    "wickets": 120,
+    "image":"https://encrypted-tbn3.gstatic.com/licensed-image?q=tbn:ANd9GcTC3WTBnfo5D8SntlW8q2Sii0JYWy7kNYX38HdwgbBlykeX8Xclsn9v-52ULETXWidNxw-JMaP1RwkYUsM"
   },
   {
     "name": "Eoin Morgan",
@@ -114,7 +126,8 @@
     "centuries": 13,
     "fifties": 46,
     "catches": 82,
-    "wickets": 4
+    "wickets": 4,
+    "image":"https://encrypted-tbn1.gstatic.com/licensed-image?q=tbn:ANd9GcQUcDT1NwiiDcx_4BE0dshKMXJYHFlT_uAXVPntNByTd2Cm0hlMXCB-RUYDZHPCzNPhQHAO3qRjS9ob718"
   },
   {
     "name": "Tamim Iqbal",
@@ -123,7 +136,8 @@
     "centuries": 13,
     "fifties": 51,
     "catches": 46,
-    "wickets": 11
+    "wickets": 11,
+    "image":"https://encrypted-tbn2.gstatic.com/licensed-image?q=tbn:ANd9GcSJhGBl4Bgf_7OgRmd1p6XgVks-776HRTLWGqYmn2JZ7foPu1eodpIB-uBzNfuks_hnnyy2n9nJCFyUpz4"
   },
   {
     "name": "Dale Steyn",
@@ -132,7 +146,8 @@
     "centuries": 0,
     "fifties": 3,
     "catches": 27,
-    "wickets": 196
+    "wickets": 196,
+    "image":"https://encrypted-tbn0.gstatic.com/licensed-image?q=tbn:ANd9GcQy2GOO7hUIXE_1a_4M5FOz--3c4IIh6ytZVwlt8PkAxONBziMdg7UmaJTNDRhnuLRTotVuN7jCNsQCjZs"
   },
   {
     "name": "Faf du Plessis",
@@ -141,7 +156,8 @@
     "centuries": 9,
     "fifties": 34,
     "catches": 57,
-    "wickets": 14
+    "wickets": 14,
+    "image":"https://encrypted-tbn2.gstatic.com/licensed-image?q=tbn:ANd9GcSVTZMz8PMrz2Yu7UrEzJSCVbvmvPRWaL8-jkOC61VE_Q97GcXzJFPdhvBaUjKf_M19pb2PsrOJTWvU15I"
   },
   {
     "name": "Kieron Pollard",
@@ -150,7 +166,8 @@
     "centuries": 6,
     "fifties": 41,
     "catches": 104,
-    "wickets": 45
+    "wickets": 45,
+    "image":"https://encrypted-tbn0.gstatic.com/licensed-image?q=tbn:ANd9GcQcAKNY-wG525VHIDTEPtohpwHuE5ssmMcz3sBs03fX53RrEvheQqr4BigV8oxza1SaLMs6fEZ7T1VvOAk"
   },
   {
     "name": "Shikhar Dhawan",
@@ -159,7 +176,8 @@
     "centuries": 17,
     "fifties": 33,
     "catches": 56,
-    "wickets": 2
+    "wickets": 2,
+    "image":"https://encrypted-tbn3.gstatic.com/licensed-image?q=tbn:ANd9GcTLUk2uDWpqLELrcSMUVRZolhVGZDKz9KmrkjfvxqLyUPk_6k6zNbloFkQCs0S8v-mmGANI2GOJ0JpkWLo"
   },
   {
     "name": "Kagiso Rabada",
@@ -168,7 +186,8 @@
     "centuries": 0,
     "fifties": 0,
     "catches": 13,
-    "wickets": 145
+    "wickets": 145,
+    "image":"https://encrypted-tbn2.gstatic.com/licensed-image?q=tbn:ANd9GcQGC_a_iWhfCJyAnN6YbGdNqTCyWLkzYmoCcHQAwvwaLlG0Ig9AJpp_8eyZthyhjG9VTwIUSdIttoSCY5g"
   },
   {
     "name": "Imran Tahir",
@@ -177,7 +196,8 @@
     "centuries": 0,
     "fifties": 0,
     "catches": 25,
-    "wickets": 173
+    "wickets": 173,
+    "image":"https://encrypted-tbn1.gstatic.com/licensed-image?q=tbn:ANd9GcS_zevzI7W_FDxYWltX5rn0xN5YQVGYurY8baaXwwfv5gUFWMZQVYVKOTy2i4SaQ1kUvX4rdmNKR0iyPzk"
   },
   {
     "name": "Kumar Sangakkara",
@@ -186,7 +206,8 @@
     "centuries": 25,
     "fifties": 93,
     "catches": 151,
-    "wickets": 8
+    "wickets": 8,
+    "image":"https://encrypted-tbn3.gstatic.com/licensed-image?q=tbn:ANd9GcQ1ttzN9UZpvbCmhuVtAXFExkLE1wzcRGydMp_jvxdocU3C5SGotv-BwIrF8B8mvFiTWHFh_tL0OZcpCo4"
   },
   {
     "name": "Steve Smith",
@@ -195,7 +216,8 @@
     "centuries": 16,
     "fifties": 33,
     "catches": 78,
-    "wickets": 27
+    "wickets": 27,
+    "image":"https://encrypted-tbn0.gstatic.com/licensed-image?q=tbn:ANd9GcQf5tDBf4dZq00inxjoytU7qQd5VJBRXN-8eJpbyZUTtjRpqzzUcykjZiQVB0cc9wM8QR69ZTfyFBN1QPw"
   },
   {
     "name": "Kane Williamson",
@@ -204,7 +226,8 @@
     "centuries": 18,
     "fifties": 41,
     "catches": 64,
-    "wickets": 15
+    "wickets": 15,
+    "image":"https://encrypted-tbn0.gstatic.com/licensed-image?q=tbn:ANd9GcR4r5XxZl96JabwWis8utJ_QTMw1uMIzVgJFai0gH3juxGxkWz8GPJ8GZqtWSG6KIObsXmQesFKu04Gf_M"
   },
   {
     "name": "Rohit Sharma",
@@ -213,7 +236,8 @@
     "centuries": 29,
     "fifties": 43,
     "catches": 91,
-    "wickets": 8
+    "wickets": 8,
+    "image":"https://encrypted-tbn2.gstatic.com/licensed-image?q=tbn:ANd9GcT8rg4N9wi27ONLCXiKg7i2BPTD-PXuZ1IZqQwQcfdC4ixBWFuIdvxtwvxH4wXo1Aairg-jnSwvJUEBmqw"
   },
   {
     "name": "Chris Gayle",
@@ -222,7 +246,8 @@
     "centuries": 25,
     "fifties": 54,
     "catches": 65,
-    "wickets": 11
+    "wickets": 11,
+    "image":"https://encrypted-tbn2.gstatic.com/licensed-image?q=tbn:ANd9GcSLZXLULv4WOPL7vHeRnNiYDG3wvV9pJWKvvS52GP6swqagP7bOGAO-gCpdSB5kMkAlG6FPc8sJh4ZRHw0"
   },
   {
     "name": "Shakib Al Hasan",
@@ -231,7 +256,8 @@
     "centuries": 9,
     "fifties": 47,
     "catches": 97,
-    "wickets": 260
+    "wickets": 260,
+    "image":"https://encrypted-tbn1.gstatic.com/licensed-image?q=tbn:ANd9GcSxVtluktCP1OtgMKgIyH8lHj2K0otRFZZPDlxw1z8vo0L9Ot-rd19euMrRRbj4S4G1TU1FypSDdZuQYnA"
   },
   {
     "name": "Jos Buttler",
@@ -240,7 +266,8 @@
     "centuries": 9,
     "fifties": 23,
     "catches": 159,
-    "wickets": 0
+    "wickets": 0,
+    "image":"https://encrypted-tbn2.gstatic.com/licensed-image?q=tbn:ANd9GcRLj7eKiyPxh-iji4ZRLTvuVr4kNC8nLR9hPHehR9DjqQbwVLvNlh0iBwo9ewLpz0cJvSHAvJbZbxRJ91g"
   },
   {
     "name": "Rashid Khan",
@@ -249,7 +276,8 @@
     "centuries": 0,
     "fifties": 1,
     "catches": 24,
-    "wickets": 140
+    "wickets": 140,
+    "image":"https://encrypted-tbn3.gstatic.com/licensed-image?q=tbn:ANd9GcT6311G2fA8Q6IimZ5LD1wMwzfrnGYNhrGw6UIF_JT8A7GPpAKFPW4BAH8xu673-wWStpYGcYgLdNvk9H4"
   },
   {
     "name": "Mitchell Starc",
@@ -258,6 +286,7 @@
     "centuries": 0,
     "fifties": 2,
     "catches": 24,
-    "wickets": 184
+    "wickets": 184,
+    "image":"https://encrypted-tbn1.gstatic.com/licensed-image?q=tbn:ANd9GcT0MpEbO_oYJwNSG3_l11ISyFckM08fJlZTwWl3nOCTHAl0JFgwFJ6iVGOvwoNc5I4X2KKvG0knmA0nnB0"
   }
 ]

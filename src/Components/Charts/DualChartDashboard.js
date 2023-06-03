@@ -25,14 +25,14 @@ import {
   TableRow,
   Paper,
   MenuItem,
-  Button,
-  Grid,
   Typography,
 } from "@material-ui/core";
 import Container from "@mui/material/Container";
 import { Select, Box, Input } from "@mui/material";
 import TablePagination from "@mui/material/TablePagination";
 import { AreaChart, Area } from "recharts";
+import InfoCard from "../InfoCard/InfoCard";
+// import InfoCard from '../InfoCard/InfoCard';
 
 const DualChartDashboard = () => {
   const [chartData, setChartData] = useState([]);
@@ -43,6 +43,9 @@ const DualChartDashboard = () => {
   const [page, setPage] = useState(1);
   const [rowsPerPage, setRowsPerPage] = useState(5);
   // const [calculatedAverage, setCalculatedAverage] = useState("");
+  const [infoCardData, setInfoCardData] = useState("");
+
+ 
 
   const handleFileChange = (event) => {
     const file = event.target.files[0];
@@ -52,14 +55,8 @@ const DualChartDashboard = () => {
       const data = event.target.result;
       const fileType = file.name.split(".").pop().toLowerCase();
 
-      if (fileType === "csv") {
-        parseCSV(data);
-      } else if (fileType === "json") {
-        parseJSON(data);
-      } else {
-        // Show error for unsupported file format
-        alert("Unsupported file format. Only CSV and JSON files are allowed.");
-      }
+      const parseFile = fileType === "csv" ? parseCSV : parseJSON;
+      parseFile(data);
     };
 
     reader.readAsText(file);
@@ -99,6 +96,15 @@ const DualChartDashboard = () => {
   //   setPage(1);
   // };
 
+
+  const generalFilter = (property) => {
+    let playerWithMostProperty = chartData.reduce((prevPlayer, currentPlayer) => {
+      return currentPlayer[property] > prevPlayer[property] ? currentPlayer : prevPlayer;
+    });
+  
+    setInfoCardData({ ...playerWithMostProperty, type: `Most ${property}` });
+  };
+  
   const handleDownloadFormatChange = (event) => {
     setSelectedFormat(event.target.value);
   };
@@ -113,32 +119,6 @@ const DualChartDashboard = () => {
   const handleRowsPerPageChange = (event) => {
     setRowsPerPage(parseInt(event.target.value, 10));
     setPage(1);
-  };
-
-  const downloadData = () => {
-    let blob, fileExtension;
-
-    switch (selectedFormat) {
-      case "csv":
-        const csvData = d3.csvFormat(filteredData);
-        blob = new Blob([csvData], { type: "text/csv;charset=utf-8" });
-        fileExtension = "csv";
-        break;
-      case "excel":
-        const excelData = d3.csvFormat(filteredData);
-        blob = new Blob([excelData], { type: "application/vnd.ms-excel" });
-        fileExtension = "xls";
-        break;
-      case "json":
-        const jsonData = JSON.stringify(filteredData);
-        blob = new Blob([jsonData], { type: "application/json" });
-        fileExtension = "json";
-        break;
-      default:
-        return;
-    }
-
-    saveAs(blob, `chart_data.${fileExtension}`);
   };
 
   // const calculateTotal = () => {
@@ -158,6 +138,35 @@ const DualChartDashboard = () => {
 
   //   return totalData;
   // };
+
+  const downloadData = () => {
+    let blob, fileExtension;
+
+    switch (selectedFormat) {
+      case "csv":
+        blob = new Blob([d3.csvFormat(filteredData)], {
+          type: "text/csv;charset=utf-8",
+        });
+        fileExtension = "csv";
+        break;
+      case "excel":
+        blob = new Blob([d3.csvFormat(filteredData)], {
+          type: "application/vnd.ms-excel",
+        });
+        fileExtension = "xls";
+        break;
+      case "json":
+        blob = new Blob([JSON.stringify(filteredData)], {
+          type: "application/json",
+        });
+        fileExtension = "json";
+        break;
+      default:
+        return;
+    }
+
+    saveAs(blob, `chart_data.${fileExtension}`);
+  };
 
   // const calculateAverage = () => {
   //   const averageData = filteredData.map((row) => {
@@ -185,16 +194,16 @@ const DualChartDashboard = () => {
     }
 
     const dataKeys = Object.keys(filteredData[0]).filter(
-      (key) => key !== "name",
+      (key) => key !== "name" && key !== "image"
     );
 
     return (
-      <ResponsiveContainer width="100%" height={450}>
+      <ResponsiveContainer width="100%" height={450} >
         <LineChart data={filteredData}>
           <CartesianGrid stroke="#ccc" />
           <XAxis dataKey="name" />
           <YAxis />
-          <Tooltip />
+          <Tooltip style={{BoxSizing:'border-box', maxWidth:'350px', border:'1px solid black'}}/>
           <Legend />
           {dataKeys.map((key, index) => (
             <Line
@@ -215,7 +224,7 @@ const DualChartDashboard = () => {
     }
 
     const dataKeys = Object.keys(filteredData[0]).filter(
-      (key) => key !== "name",
+      (key) => key !== "name" && key !== "image"
     );
 
     return (
@@ -240,7 +249,7 @@ const DualChartDashboard = () => {
     }
 
     const dataKeys = Object.keys(filteredData[0]).filter(
-      (key) => key !== "name",
+      (key) => key !== "name" && key !== "image"
     );
 
     const colors = getChartColors(dataKeys.length);
@@ -289,7 +298,7 @@ const DualChartDashboard = () => {
     }
 
     const dataKeys = Object.keys(filteredData[0]).filter(
-      (key) => key !== "name",
+      (key) => key !== "name" && key !== "image"
     );
 
     return (
@@ -315,7 +324,7 @@ const DualChartDashboard = () => {
   };
 
   return (
-    <Container style={{ width: "100%" }}>
+    <Box style={{ width: "100%", BoxSizing: "border-box" }}>
       {/* <Box>
         <Box>
           Number of Results:
@@ -348,6 +357,7 @@ const DualChartDashboard = () => {
           alignItems: "center",
           width: "100%",
           height: "50px",
+          padding: "0px 1%",
         }}
       >
         <Box>
@@ -358,12 +368,12 @@ const DualChartDashboard = () => {
             onChange={handleFileChange}
           />
         </Box>
-        <Box>
+        <Box sx={{ display: "flex" }}>
           <Typography>Chart : </Typography>
           <Select
             value={selectedChartType}
             onChange={handleChartTypeChange}
-            sx={{ height: "26px", width: "80px" }}
+            sx={{ height: "26px", width: "80px", marginRight: "2rem" }}
           >
             <MenuItem value="line">Line</MenuItem>
             <MenuItem value="bar">Bar</MenuItem>
@@ -371,7 +381,22 @@ const DualChartDashboard = () => {
             <MenuItem value="area">Area</MenuItem>
           </Select>
         </Box>
-        <Box>
+        <Box sx={{ display: "flex" }}>
+          <Typography>Filters : </Typography>
+          <Select sx={{ height: "26px", width: "80px", marginRight: "2rem" }}>
+            <MenuItem value="scorer" onClick={()=> generalFilter("runs")}>
+              Highest Scorer
+            </MenuItem>
+            <MenuItem value="fifties" onClick={()=> generalFilter("fifties")}>
+              Most Fifties
+            </MenuItem>
+            <MenuItem value="centuries" onClick={()=> generalFilter("centuries")}>
+              Most Centries
+            </MenuItem>
+          </Select>
+        </Box>
+
+        <Box sx={{ display: "flex" }}>
           <Typography>Download : </Typography>
           <Select
             value={selectedFormat}
@@ -390,6 +415,10 @@ const DualChartDashboard = () => {
           </Select>
         </Box>
       </Box>
+
+      
+      {infoCardData && 
+      <InfoCard infoCardData={infoCardData}  sx={{BoxSizing:'border-box'}}/>}
 
       {/* <Grid container spacing={1} sx={{height:'100px', border:'1px solid black'}}>
         <Grid item xs={4} sm={4} lg={4} sx={{height:'36px'}}>
@@ -457,13 +486,16 @@ const DualChartDashboard = () => {
         {renderAreaChart()}
       </Box>
       <Container sx={{ marginTop: 2 }}>
-        <TableContainer component={Paper} sx={{ overflowX: "auto" }}>
+        <TableContainer
+          component={Paper}
+          sx={{ overflowX: "auto", width: "100%" }}
+        >
           <Table>
             <TableHead>
               <TableRow>
                 {filteredData.length > 0 &&
                   Object.keys(filteredData[0]).map((key) => (
-                    <TableCell key={key}>{key}</TableCell>
+                    <TableCell key={key}>{key.toLocaleUpperCase()}</TableCell>
                   ))}
               </TableRow>
             </TableHead>
@@ -472,7 +504,21 @@ const DualChartDashboard = () => {
                 filteredDataPagination.map((row, index) => (
                   <TableRow key={index}>
                     {Object.values(row).map((value, index) => (
-                      <TableCell key={index}>{value}</TableCell>
+                      // <TableCell key={index}>{value}</TableCell>
+                      <TableCell key={index}>
+                        {typeof value === "string" &&
+                        value.startsWith("http") ? (
+                          <img
+                            src={value}
+                            height={50}
+                            width={50}
+                            alt="player"
+                            style={{ borderRadius: "50%" }}
+                          /> // Render img tag for image URLs
+                        ) : (
+                          value
+                        )}
+                      </TableCell>
                     ))}
                   </TableRow>
                 ))
@@ -515,7 +561,7 @@ const DualChartDashboard = () => {
         </Button>
         <Typography>{calculatedAverage}</Typography>
       </Box> */}
-    </Container>
+    </Box>
   );
 };
 
